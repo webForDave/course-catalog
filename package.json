@@ -1,0 +1,26 @@
+{
+  "name": "course-catalog",
+  "version": "1.0.0",
+  "description": "A simple node/express.js web app where users can browse courses view details and submit a \"contact us\" form.",
+  "homepage": "https://github.com/webForDave/course-catalog#readme",
+  "bugs": {
+    "url": "https://github.com/webForDave/course-catalog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webForDave/course-catalog.git"
+  },
+  "license": "ISC",
+  "author": "Akinola David",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "http-status-codes": "^2.3.0"
+  }
+}
